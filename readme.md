@@ -41,3 +41,14 @@ cd my_project
 git init
 ```
 Это лишь некоторые функции markdown.
+
+
+```mermaid
+graph TD;
+	A-->B;
+	B-->C;
+	B-->D;
+	B-->E;
+	E-->A;
+
+```
