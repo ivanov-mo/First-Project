@@ -9,5 +9,7 @@ Title..
 ```C++
 int main()
 {
+  int x = 0;
+  int y = x + 5;
   return 0;
 }
