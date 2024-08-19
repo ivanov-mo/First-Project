@@ -45,10 +45,13 @@ git init
 
 ```mermaid
 graph TD;
-	A-->B;
+	A--"Start"-->B;
 	B-->C;
 	B-->D;
 	B-->E;
-	E-->A;
+	C--"Left"-->F;
+	D--"Middle"-->F;
+	E--"Right"-->F;
+	F--"Repeat"-->A;
 
 ```
